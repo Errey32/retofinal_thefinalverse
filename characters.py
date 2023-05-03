@@ -16,8 +16,8 @@ match lang:
     case "Demon":
         print("-Wake up you stupid demon-")
         sleep(delay)
-        print("You are in a very hot place, you are in the ground cover with flames and you only have one job, TO ^SUFFER^, You have orders to discover new lands to get to the holy castle and you can take two ways the suffering river or the forest of pain, Wich way would you go?")
-
+        print("You are in a very hot place, you are in the ground cover with flames and you only have one job, TO ^SUFFER^, \nYou have orders to discover new lands to get to the holy castle and you can take two ways the suffering river or the forest of pain, Wich way would you go?")
+        input("Wich way would you go?")
 
     case "Angel":
         print("-!!HEY!!")
