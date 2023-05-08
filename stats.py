@@ -1,6 +1,6 @@
 from time import sleep
 from os import system
-
+import characters
 #Aqui van a estar las bases de stats de las razas
 
 class Human:
@@ -39,3 +39,5 @@ class Angel:
 
     def __repr__(self) -> str:
         return f"Hp: {self.hp}\n Stamina: {self.stamina}\n Mana: {self.mana}\n Faith: {self.faith}\n Darkness: { self.dark}\n Strenght: {self.strenght}\n"
+
+print(Demon.hp)
