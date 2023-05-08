@@ -4,7 +4,7 @@ from os import system
 from stats import fight_system
 import sys
 
-delay = 1
+delay = 4
 print("---------Bienvenido a nuestro mundo--------")
 sleep(delay)
 input("Presione una tecla para continuar...")
@@ -25,7 +25,7 @@ match lang:
                 sleep(delay)
                 lang2 = input("What are you going to do?\n\t\t\t[1.- You go fight the Hunters]\n\t\t\t[2.- You go searchin for another place to shellter]")
                 if lang2 == "1":
-                        #Pelea
+                        fight_system
                         system("cls")
                         print("You have defeated the hunters, you stay inside the shellter a few hours to sleep")
                         sleep(delay)
