@@ -16,12 +16,9 @@ lang = input("Cual es la cuenta que quieres usar? \ncuenta1\ncuenta2\ncuenta3\n 
 
 match lang:
     case "cuenta1":
-        print("Bienvenido a tu nueva cuenta.")
-        delay = 1
-        lang = input("----Wich class are you going to choose for your new game?----\n\t\t\t[Human]\n\t\t\t[Demon]\n\t\t\t[Angel]\n-------------------------------------------------------------\n")
-        match lang:
-            case "Human":
-
+                print("Bienvenido a tu nueva cuenta.")
+                delay = 1
+                lang = input("----Wich class are you going to choose for your new game?----\n\t\t\t[Human]\n\t\t\t[Demon]\n\t\t\t[Angel]\n-------------------------------------------------------------\n")
                 print("You just woke up from a hundred years sleep, is a dark place you are trapped somewhere so you push and get out from a coffin. ")
                 sleep(delay)
                 print("You are in the middle of a snowy forest it is to cold for you soyou start lookin around and you see a cabin and you peek in and see some Hunters.")
@@ -93,20 +90,11 @@ match lang:
                 print("You have defeated the elden ghost you are now free")
                 print("End of the Game")
                 sys.exit()
-
-            case "Demon":
-                        
-
-            case "Angel":
-                        x
-
+                
     case "cuenta2":
-            print("Bienvenido a tu nueva cuenta.")
-            delay = 1
-            lang = input("----Wich class are you going to choose for your new game?----\n\t\t\t[Human]\n\t\t\t[Demon]\n\t\t\t[Angel]\n-------------------------------------------------------------\n")
-            match lang:
-                case "Human":
-
+                    print("Bienvenido a tu nueva cuenta.")
+                    delay = 1
+                    lang = input("----Wich class are you going to choose for your new game?----\n\t\t\t[Human]\n\t\t\t[Demon]\n\t\t\t[Angel]\n-------------------------------------------------------------\n")
                     print("You just woke up from a hundred years sleep, is a dark place you are trapped somewhere so you push and get out from a coffin. ")
                     sleep(delay)
                     print("You are in the middle of a snowy forest it is to cold for you soyou start lookin around and you see a cabin and you peek in and see some Hunters.")
@@ -178,19 +166,11 @@ match lang:
                     print("You have defeated the elden ghost you are now free")
                     print("End of the Game")
                     sys.exit()
-
-                case "Demon":
-                            
-
-                case "Angel":
-                        x
+                    
     case "cuenta3":
-            print("Bienvenido a tu nueva cuenta.")
-            delay = 1
-            lang = input("----Wich class are you going to choose for your new game?----\n\t\t\t[Human]\n\t\t\t[Demon]\n\t\t\t[Angel]\n-------------------------------------------------------------\n")
-            match lang:
-                    case "Human":
-
+                        print("Bienvenido a tu nueva cuenta.")
+                        delay = 1
+                        lang = input("----Wich class are you going to choose for your new game?----\n\t\t\t[Human]\n\t\t\t[Demon]\n\t\t\t[Angel]\n-------------------------------------------------------------\n")
                         print("You just woke up from a hundred years sleep, is a dark place you are trapped somewhere so you push and get out from a coffin. ")
                         sleep(delay)
                         print("You are in the middle of a snowy forest it is to cold for you soyou start lookin around and you see a cabin and you peek in and see some Hunters.")
@@ -262,9 +242,3 @@ match lang:
                         print("You have defeated the elden ghost you are now free")
                         print("End of the Game")
                         sys.exit()
-
-                    case "Demon":
-                                
-
-                    case "Angel":
-                                x
